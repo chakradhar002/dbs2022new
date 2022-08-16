@@ -1,0 +1,10 @@
+<p>eventbinding works!</p>
+<p>  
+    Server2 is also working fine.  
+  </p>  
+  <button class="btn btn-primary"  [disabled]="!allowNewServer"    (click)="onCreateServer()">Add Server</button>  
+  
+  
+  <!--<h3 [innerText]= "allowNewServer"></h3>-->  
+    
+  {{serverCreationStatus}}  
